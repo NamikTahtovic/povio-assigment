@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CryptoListComponent } from './crypto-list/crypto-list.component';
 import { CryptoDetailsComponent } from './crypto-details/crypto-details.component';
-import { CryptoSettingsComponent } from './crypto-settings/crypto-settings.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTableModule} from '@angular/material/table';
 import {MatButtonModule} from '@angular/material/button';
@@ -17,7 +16,6 @@ import {MatIconModule} from '@angular/material/icon';
     AppComponent,
     CryptoListComponent,
     CryptoDetailsComponent,
-    CryptoSettingsComponent
   ],
   imports: [
     BrowserModule,

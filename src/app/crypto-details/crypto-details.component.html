@@ -24,55 +24,55 @@
           
             <!-- Rank Column -->
             <ng-container matColumnDef="rank">
-              <th mat-header-cell *matHeaderCellDef> No. </th>
+              <th mat-header-cell *matHeaderCellDef>Rank</th>
               <td mat-cell *matCellDef="let element"> {{element.rank}} </td>
             </ng-container>
           
-            <!-- Symbol Column -->
+            <!-- Name Column -->
             <ng-container matColumnDef="name">
-              <th mat-header-cell *matHeaderCellDef> Name </th>
+              <th mat-header-cell *matHeaderCellDef>Name</th>
               <td mat-cell *matCellDef="let element"> {{element.name}} </td>
             </ng-container>
           
-            <!-- Price Column -->
+            <!-- Symbol Column -->
             <ng-container matColumnDef="symbol">
-              <th mat-header-cell *matHeaderCellDef> Weight </th>
+              <th mat-header-cell *matHeaderCellDef>Symbol</th>
               <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
             </ng-container>
           
-            <!-- Change Column -->
+            <!-- Price Column -->
             <ng-container matColumnDef="price">
-              <th mat-header-cell *matHeaderCellDef> Symbol </th>
+              <th mat-header-cell *matHeaderCellDef>Price</th>
               <td mat-cell *matCellDef="let element"> {{element.price}} </td>
             </ng-container>
 
-            <!-- Change Column -->
+            <!-- Price Bitcoin Column -->
             <ng-container matColumnDef="price_bitcoin">
-                <th mat-header-cell *matHeaderCellDef> Symbol </th>
+                <th mat-header-cell *matHeaderCellDef>Price Bitcoin</th>
                 <td mat-cell *matCellDef="let element"> {{element.price_bitcoin}} </td>
             </ng-container>
             
-            <!-- Change Column -->
+            <!-- Change 1h Column -->
             <ng-container matColumnDef="one_hour_change">
-                <th mat-header-cell *matHeaderCellDef> Symbol </th>
+                <th mat-header-cell *matHeaderCellDef>Change 1h</th>
                 <td mat-cell *matCellDef="let element"> {{element.one_hour_change}} </td>
             </ng-container>
 
-            <!-- Change Column -->
+            <!-- Change 24h Column -->
             <ng-container matColumnDef="all_day_change">
-                <th mat-header-cell *matHeaderCellDef> Symbol </th>
+                <th mat-header-cell *matHeaderCellDef>Change 24h</th>
                 <td mat-cell *matCellDef="let element"> {{element.all_day_change}} </td>
             </ng-container>
 
-            <!-- Change Column -->
+            <!-- Change 7d Column -->
             <ng-container matColumnDef="week_change">
-                <th mat-header-cell *matHeaderCellDef> Symbol </th>
+                <th mat-header-cell *matHeaderCellDef>Change 7d</th>
                 <td mat-cell *matCellDef="let element"> {{element.week_change}} </td>
             </ng-container>
 
-            <!-- Change Column -->
+            <!-- otal supply Column -->
             <ng-container matColumnDef="total_supply">
-                <th mat-header-cell *matHeaderCellDef> Symbol </th>
+                <th mat-header-cell *matHeaderCellDef>Total supply</th>
                 <td mat-cell *matCellDef="let element"> {{element.total_supply}} </td>
             </ng-container>
 
