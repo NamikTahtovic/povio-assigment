@@ -7,6 +7,7 @@ import { CryptoListComponent } from './crypto-list/crypto-list.component';
 import { CryptoDetailsComponent } from './crypto-details/crypto-details.component';
 import { CryptoSettingsComponent } from './crypto-settings/crypto-settings.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
