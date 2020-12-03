@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CryptoListComponent } from './crypto-list/crypto-list.component';
+import { CryptoDetailsComponent } from './crypto-details/crypto-details.component';
+import { CryptoSettingsComponent } from './crypto-settings/crypto-settings.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CryptoListComponent,
+    CryptoDetailsComponent,
+    CryptoSettingsComponent
   ],
   imports: [
     BrowserModule,
