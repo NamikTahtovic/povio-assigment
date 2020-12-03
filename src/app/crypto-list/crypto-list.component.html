@@ -1,6 +1,9 @@
 <div class="list-wrapper">
     <h1>List of Crypto Currency</h1>
     <div class="table-container">
+        <div class="refresh-button">
+            <button mat-raised-button color="primary">REFRESH</button>
+        </div>
         <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
             <!--- Note that these columns can be defined in any order.
                   The actual rendered columns are set as a property on the row definition" -->
@@ -30,7 +33,7 @@
             </ng-container>
           
             <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-            <tr (click)="openDetails(row.rank)" mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            <tr (click)="openDetails(row)" mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
           </table>
     </div>
 </div>

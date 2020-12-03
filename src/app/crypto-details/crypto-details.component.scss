@@ -1,0 +1,16 @@
+.details-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fafafa;
+    .refresh-button {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .table-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

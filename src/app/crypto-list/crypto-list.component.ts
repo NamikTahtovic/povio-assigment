@@ -33,8 +33,8 @@ export class CryptoListComponent implements OnInit {
   }
 
 
-  openDetails(selected: string): void {
-    this.router.navigate(['/details', selected]);
+  openDetails(selected: any): void {
+    this.router.navigate(['/details', selected.rank]);
   }
 
 }
