@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./crypto-details.component.scss']
 })
 export class CryptoDetailsComponent implements OnInit {
+  currencys: any[] = [
+    {value: 'usd', viewValue: 'USD'},
+    {value: 'eur', viewValue: 'EUR'},
+    {value: 'cny', viewValue: 'CNY'}
+  ];
   ELEMENT_DATA: any[] = [
     {rank: '1', name: 'Hydrogen', symbol: '1.0079', price: 'H', price_bitcoin: '111', one_hour_change: '222', all_day_change: '333', week_change: '44', total_supply: '100'},
   ];

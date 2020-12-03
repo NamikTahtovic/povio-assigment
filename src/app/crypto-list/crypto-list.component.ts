@@ -11,6 +11,11 @@ import { Router } from '@angular/router';
 
 
 export class CryptoListComponent implements OnInit {
+  currencys: any[] = [
+    {value: 'usd', viewValue: 'USD'},
+    {value: 'eur', viewValue: 'EUR'},
+    {value: 'cny', viewValue: 'CNY'}
+  ];
   ELEMENT_DATA: any[] = [
     {rank: '1', price: 'Hydrogen', change: '1.0079', symbol: 'H'},
     {rank: '2', price: 'Helium', change: '4.0026', symbol: 'He'},

@@ -3,9 +3,30 @@
     flex-direction: column;
     padding: 20px;
     background-color: #fafafa;
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .back-to {
+        outline: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+        p { 
+            margin: 0px;
+            text-decoration: underline;
+        }
+    }
     .refresh-button {
         display: flex;
+        flex-direction: row;
         justify-content: flex-end;
+        align-items: center;
         width: 100%;
         margin-bottom: 15px;
     }

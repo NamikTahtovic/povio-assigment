@@ -3,11 +3,19 @@
     flex-direction: column;
     padding: 20px;
     background-color: #fafafa;
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
     .refresh-button {
         display: flex;
         justify-content: flex-end;
         width: 100%;
         margin-bottom: 15px;
+        align-items: center;
     }
     .table-container {
         display: flex;

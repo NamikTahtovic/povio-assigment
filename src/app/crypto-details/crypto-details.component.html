@@ -1,5 +1,19 @@
 <div class="details-wrapper">
-    <h1>Details</h1>
+    <div class="back-to"routerLink="/list" routerLinkActive="active">
+        <mat-icon aria-hidden="false" aria-label="Example home icon">keyboard_arrow_left</mat-icon>
+            <p>Back to list</p>
+    </div>
+    <div class="header">
+        <h1>Details</h1>
+        <mat-form-field appearance="fill">
+            <mat-label>Currency</mat-label>
+            <mat-select color="primary" placeholder="Select currency">
+                <mat-option *ngFor="let currency of currencys" [value]="currency.value">
+                {{currency.viewValue}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
     <div class="table-container">
         <div class="refresh-button">
             <button mat-raised-button color="primary">REFRESH</button>
