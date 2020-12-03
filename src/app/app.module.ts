@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CryptoListComponent } from './crypto-list/crypto-list.component';
 import { CryptoDetailsComponent } from './crypto-details/crypto-details.component';
 import { CryptoSettingsComponent } from './crypto-settings/crypto-settings.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CryptoSettingsComponent } from './crypto-settings/crypto-settings.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
